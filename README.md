@@ -1,1 +1,1 @@
-## E-E machine LEarning Project
+## E-E Machine Learning Project
