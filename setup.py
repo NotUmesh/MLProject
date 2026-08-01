@@ -6,7 +6,7 @@ def get_requirements(file_path: str) -> list:
         requirements = file_obj.readlines()
         requirements = [req.replace("\n", "") for req in requirements]
         if "-e ." in requirements:
-            requirements.remove("-e .")
+            requirements.remove("-e.")
 setup(
     name="mlproject",
     version="0.0.1",
